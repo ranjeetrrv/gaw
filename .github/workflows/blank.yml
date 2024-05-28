@@ -10,6 +10,10 @@ on:
       dry-run:
         description: 'Set to true to list unused volumes, false to delete them'
         required: true
+        type: choice
+        options: 
+        - 'true'
+        - 'false'
         default: 'true'
 
 
